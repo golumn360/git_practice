@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Upper-Content{
+    background-color: green;
+    width: 100%;
+    height: 85px;
+}
+
+.Search-Bar {
+    width: 100%;
+    background-color: red;
+    height: 50px;
+}
+
+.Contents{
+    display: flex;
+    width: 100%;
+}
+
+.Left-Content {
+    display: flex;
+    background-color: blue;
+    width: 50%;
+    min-height: calc(100vh - 135px);
+    margin: 0;
+    padding: 0;
+}
+
+.Right-Content {
+    display: flex;
+    background-color: purple;
+    width: 50%;
+    min-height: calc(100vh - 135px);
+    margin: 0;
+    padding: 0;
+}
