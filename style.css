@@ -18,20 +18,28 @@ body {
     align-items: center;
     height: 85px;
     font-size: 30px;
+    padding: 0 30px; 
+    font-family: Tahoma;
 }
+
 
 .Brand-Name {
     font-size: 50px;
-    margin-left: 30px;
+    margin-left: 15px;
+}
+
+.Nav-Links {
+    margin-left: 8%;
 }
 
 .Nav-Links ul {
     list-style: none;
     display: flex;
-    gap: 80px;
-    margin-left: 400px;
+    gap: 150px; 
+    margin: 0;
     padding: 0;
 }
+
     
 .Nav-Links a {
     text-decoration: none;
@@ -44,14 +52,40 @@ body {
 }
 
 
-.Logo {
-    margin-left: 50px;
+.Logo img {
+    width: 70px;
+    height: 70px;
 }
 
-.Search-Bar {
+.Search-Content {
     width: 100%;
-    background-color: red;
     height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Search-Input{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 16px;
+    background: lightgrey;
+    justify-content: center;
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: Tahoma;
+    color: black;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
 }
 
 .Contents{
@@ -61,7 +95,7 @@ body {
 
 .Left-Content {
     display: flex;
-    background-color: blue;
+    background-color: lightslategray;
     width: 50%;
     min-height: calc(100vh - 135px);
     margin: 0;
@@ -70,7 +104,7 @@ body {
 
 .Right-Content {
     display: flex;
-    background-color: purple;
+    background-color: grey;
     width: 50%;
     min-height: calc(100vh - 135px);
     margin: 0;
